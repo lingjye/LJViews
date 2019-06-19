@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LJViews_Example' do
+  pod 'LJViews', :path => '../'
+
+  target 'LJViews_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
