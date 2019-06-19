@@ -6,8 +6,8 @@
 //  Copyright © 2017年 领琾. All rights reserved.
 //
 
-#ifndef LJConst_h
-#define LJConst_h
+#ifndef LJViews_h
+#define LJViews_h
 
 #import "UIButton+LJButton.h"
 #import "UILabel+LJLabel.h"

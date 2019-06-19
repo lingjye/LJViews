@@ -13,7 +13,7 @@
 		2B3D5A5C8FBEA0315699060405BDB0EA /* UILabel+LJLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B94FB298B7A95AEAF9D8262C40452DAE /* UILabel+LJLabel.m */; };
 		35052B2AF2FF96BDCD76B9C0A4E71080 /* LJViews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CDC4D0775A65C6929BCA6DF2B8F440 /* LJViews-dummy.m */; };
 		3D0E20D90EF7A6F9C40E2356A0387135 /* Pods-LJViews_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 588264786AB7C368140A577AB409CC36 /* Pods-LJViews_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		417D998CF49A80CB6671A0F1A0106E79 /* LJConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 355ECA7130A1589874078EF2EDC52CC3 /* LJConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		417D998CF49A80CB6671A0F1A0106E79 /* LJViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 355ECA7130A1589874078EF2EDC52CC3 /* LJViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56D1733AAA7636A2600AB9E8540B015A /* Pods-LJViews_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56CE2FCCA0BC569E257B9C8BB0F1C07D /* Pods-LJViews_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79C748EAEF79ABD63546FACA4F52A035 /* Pods-LJViews_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAD7C8DAA6F1AD4E8F6943BAC56B5A4 /* Pods-LJViews_Tests-dummy.m */; };
 		7BE8DC4DECBEF1F52AB35AC318285104 /* UILabel+LJLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D1F6E6DDDFFEF3D2ECF7D3FFD5C001E /* UILabel+LJLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -44,12 +44,12 @@
 		00142E892C4A5CA390CA5C4B07C53DD1 /* LJViews-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LJViews-prefix.pch"; sourceTree = "<group>"; };
 		13918CD3482DB77F990D1E8861CC713F /* LJViews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LJViews.modulemap; sourceTree = "<group>"; };
 		14AFB6004AFF11B11DCF2EDD26CF90C3 /* Pods-LJViews_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LJViews_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		16EC15B6A1C66578F2626152881EA8BB /* Pods_LJViews_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LJViews_Example.framework; path = "Pods-LJViews_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		16EC15B6A1C66578F2626152881EA8BB /* Pods_LJViews_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LJViews_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2E82ADAC16CDBABE433DC66DDDC41C2D /* Pods-LJViews_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LJViews_Tests-resources.sh"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		32CDC4D0775A65C6929BCA6DF2B8F440 /* LJViews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LJViews-dummy.m"; sourceTree = "<group>"; };
-		355ECA7130A1589874078EF2EDC52CC3 /* LJConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LJConst.h; path = LJViews/Classes/LJConst.h; sourceTree = "<group>"; };
+		355ECA7130A1589874078EF2EDC52CC3 /* LJViews.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LJViews.h; path = LJViews/Classes/LJViews.h; sourceTree = "<group>"; };
 		36AE70EA03BCEF9A99BCE49E2F86D11C /* Pods-LJViews_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LJViews_Example-resources.sh"; sourceTree = "<group>"; };
 		3C302651B3203476C6C839F9A6D58C75 /* Pods-LJViews_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LJViews_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4BAE1336F04EDD7B8FAC9A850149618E /* UIButton+LJButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+LJButton.m"; path = "LJViews/Classes/UIButton+LJButton.m"; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		5F26DC42FAC65A41EE34D1DEBF66E7BA /* Pods-LJViews_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LJViews_Example.modulemap"; sourceTree = "<group>"; };
 		5F375FDB698642D26FA980629D7D9012 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61B2551D2A7B06F33A5DCE117E04E2BA /* Pods-LJViews_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LJViews_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		70CFA20786360A35FACE7E4EDA910951 /* Pods_LJViews_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LJViews_Tests.framework; path = "Pods-LJViews_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CFA20786360A35FACE7E4EDA910951 /* Pods_LJViews_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LJViews_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77ED9B2E6E49232E6A647795E45834E1 /* Pods-LJViews_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LJViews_Example-frameworks.sh"; sourceTree = "<group>"; };
 		78B631B1B898FC5F6B3A165C49D46601 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D1F6E6DDDFFEF3D2ECF7D3FFD5C001E /* UILabel+LJLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+LJLabel.h"; path = "LJViews/Classes/UILabel+LJLabel.h"; sourceTree = "<group>"; };
@@ -68,17 +68,17 @@
 		95935FF78A886AFFC022BCFA33AB674F /* LJViews.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LJViews.xcconfig; sourceTree = "<group>"; };
 		9CAD7C8DAA6F1AD4E8F6943BAC56B5A4 /* Pods-LJViews_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LJViews_Tests-dummy.m"; sourceTree = "<group>"; };
 		9DB434DF59A3FEAFD4DF96D1FA340251 /* Pods-LJViews_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LJViews_Example-dummy.m"; sourceTree = "<group>"; };
-		AEACD63DAA1FF2143E7E097E615022BF /* LJViews.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LJViews.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEACD63DAA1FF2143E7E097E615022BF /* LJViews.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = LJViews.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B58EC31DBCE5ABCB55F56E39ED9E91E1 /* Pods-LJViews_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LJViews_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B94FB298B7A95AEAF9D8262C40452DAE /* UILabel+LJLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+LJLabel.m"; path = "LJViews/Classes/UILabel+LJLabel.m"; sourceTree = "<group>"; };
 		C118D2F0320A203444EAACEC2A5C8286 /* Pods-LJViews_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LJViews_Tests.modulemap"; sourceTree = "<group>"; };
 		CFA50749F00B0CC51BE02FEBB2AC7722 /* LJViews-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LJViews-umbrella.h"; sourceTree = "<group>"; };
-		D6E5EE9818CB82C54A7C4FA4B6D3047B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		D86EB87A8AA31B24173B8CEE853A89C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D6E5EE9818CB82C54A7C4FA4B6D3047B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D86EB87A8AA31B24173B8CEE853A89C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DABABFBBBD74EC115E842F63D2F797D0 /* Pods-LJViews_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LJViews_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DFB6EDCE7B23901E4EFCBAAB46A94D17 /* Pods-LJViews_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LJViews_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EC675DCAA56D2DE20B3012C715BD9F63 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F372F4927B3CE26F923135EE22E4DB6E /* LJViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LJViews.framework; path = LJViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F372F4927B3CE26F923135EE22E4DB6E /* LJViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LJViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD679E8A8596C1DFFA163890ECB9A9A1 /* UIButton+LJButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+LJButton.h"; path = "LJViews/Classes/UIButton+LJButton.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -172,7 +172,7 @@
 		84067C06A9FE8F36102876DE618ED0C2 /* LJViews */ = {
 			isa = PBXGroup;
 			children = (
-				355ECA7130A1589874078EF2EDC52CC3 /* LJConst.h */,
+				355ECA7130A1589874078EF2EDC52CC3 /* LJViews.h */,
 				FD679E8A8596C1DFFA163890ECB9A9A1 /* UIButton+LJButton.h */,
 				4BAE1336F04EDD7B8FAC9A850149618E /* UIButton+LJButton.m */,
 				7D1F6E6DDDFFEF3D2ECF7D3FFD5C001E /* UILabel+LJLabel.h */,
@@ -246,7 +246,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				417D998CF49A80CB6671A0F1A0106E79 /* LJConst.h in Headers */,
+				417D998CF49A80CB6671A0F1A0106E79 /* LJViews.h in Headers */,
 				FD44C41D0A37ACAF0D77B82219B3CF46 /* LJViews-umbrella.h in Headers */,
 				EF78E87608FCEBB65D985859E90C998A /* UIButton+LJButton.h in Headers */,
 				7BE8DC4DECBEF1F52AB35AC318285104 /* UILabel+LJLabel.h in Headers */,
@@ -513,8 +513,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
