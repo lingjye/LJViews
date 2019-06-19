@@ -1,0 +1,16 @@
+PODS:
+  - LJViews (0.0.1)
+
+DEPENDENCIES:
+  - LJViews (from `../`)
+
+EXTERNAL SOURCES:
+  LJViews:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LJViews: fd57d24563de4ad78f91ba75667adecd81a4b4d7
+
+PODFILE CHECKSUM: 8bed458edd1f30b9a38e363bee907e57d3b49abe
+
+COCOAPODS: 1.5.3

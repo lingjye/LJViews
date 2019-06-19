@@ -1,0 +1,6 @@
+framework module LJViews {
+  umbrella header "LJViews-umbrella.h"
+
+  export *
+  module * { export * }
+}

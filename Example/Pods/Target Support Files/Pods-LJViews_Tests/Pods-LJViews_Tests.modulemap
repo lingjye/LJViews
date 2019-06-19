@@ -1,0 +1,6 @@
+framework module Pods_LJViews_Tests {
+  umbrella header "Pods-LJViews_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
